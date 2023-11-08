@@ -118,10 +118,85 @@
     <p>Uma estrutura básica de um documento <abbr title="Hypertext Markup Language">HTML</abbr> é composta por várias partes que definem 
       a estrutura e o conteúdo de uma página da web. Vamos analisar cada parte:</p>
       <ul>
-         <li><h3><code>&lt;!DOCTYPE html&gt;</code></h3></li>
-         <ul>
-            <li>A declaração <code>&lt;!DOCTYPE html&gt;</code> é o primeiro elemento em um documento HTML;</li>
-         </ul>
+         <li><h3><strong>&lt;!DOCTYPE&gt;:</strong></h3></li>
+            <ul>
+               <li>A declaração <code>&lt;!DOCTYPE&gt;</code> é o primeiro elemento em um documento <abbr title="Hypertext Markup Language">HTML</abbr>;</li>
+               <li>Ela informa ao navegador qual versão do <abbr title="Hypertext Markup Language">HTML</abbr> está sendo usada e como interpretar o documento;</li>
+               <li>Por exemplo, para HTML5, você usaria: <code>&lt;!DOCTYPE html&gt;</code>;</li>
+               <li>A declaração <code>&lt;!DOCTYPE html&gt;</code> é o primeiro elemento em um documento <abbr title="Hypertext Markup Language">HTML</abbr>;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;html&gt;:</strong></h3>
+            <ul>
+               <li>O elemento <code>&lt;html&gt;</code> é o elemento raiz de um documento <abbr title="Hypertext Markup Language">HTML</abbr>;</li>
+               <li>Todo o conteúdo da página está contido dentro deste elemento;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;head&gt;:</strong></h3>
+            <ul>
+               <li>A seção <code>&lt;head&gt;</code> contém metadados e informações que não são diretamente exibidos na página, mas são cruciais para a sua estrutura e otimização para mecanismos de busca;</li>
+               <li>Ela inclui o título da página, que é exibido na barra de título do navegador;</li>
+               <li>Também pode conter elementos como <code>&lt;meta&gt;</code>, <code>&lt;link&gt;</code> e <code>&lt;script&gt;</code>;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;title&gt;:</strong></h3>
+            <ul>
+               <li>O elemento <code>&lt;title&gt;</code> define o título da página;</li>
+               <li>É exibido na barra de título do navegador e é usado para identificar a página em favoritos e resultados de pesquisa;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;meta&gt;:</strong></h3>
+            <ul>
+               <li>Elementos <code>&lt;meta&gt;</code> fornecem informações adicionais sobre o documento, como a codificação de caracteres, descrição da página, autor e palavras-chave;</li>
+               <li>Eles ajudam os mecanismos de busca e navegadores a entenderem e apresentarem o conteúdo de forma apropriada;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;link&gt;:</strong></h3>
+            <ul>
+               <li>O elemento <code>&lt;link&gt;</code> é usado para vincular folhas de estilo externas (arquivos CSS) ao documento;</li>
+               <li>Isso permite definir o layout e a aparência da página;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;script&gt;:</strong></h3>
+            <ul>
+               <li>O elemento <code>&lt;script&gt;</code> é usado para incorporar código JavaScript no documento;</li>
+               <li>JavaScript adiciona interatividade e funcionalidades dinâmicas à página, como validação de formulários e animações;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>&lt;body&gt;:</strong></h3>
+            <ul>
+               <li>A seção <code>&lt;body&gt;</code> contém o conteúdo principal da página, como texto, imagens, links e outros elementos visíveis;</li>
+               <li>É a parte da página que os visitantes veem quando acessam o site;</li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>Elementos de conteúdo:</strong></h3>
+            <ul>
+               <li><p>Dentro do <code>&lt;body&gt;</code>, você usa vários elementos HTML para estruturar o conteúdo, como:</p>
+                  <ul>
+                     <li><strong>Cabeçalhos (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, etc.):</strong> Usados para títulos e subtítulos;</li>
+                     <li><strong>Parágrafos (<code>&lt;p&gt;</code>):</strong> Usados para texto em parágrafos;</li>
+                     <li><strong>Listas (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>):</strong> Usadas para criar listas não ordenadas e ordenadas;</li>
+                     <li><strong>Imagens (<code>&lt;img&gt;</code>):</strong> Incluem imagens na página;</li>
+                     <li><strong>Links (<code>&lt;a&gt;</code>):</strong> Criam hiperlinks para outras páginas ou recursos;</li>
+                  </ul>
+               </li>
+            </ul>
+         </li><br>
+         <li>
+            <h3><strong>Comentários:</strong></h3>
+            <ul>
+               <li>Você pode adicionar comentários ao código HTML usando <code>&lt;!--</code> para iniciar um comentário e <code>--&gt;</code> para encerrá-lo;</li>
+               <li>Comentários são úteis para fazer anotações no código, explicar partes específicas do documento ou ocultar temporariamente partes do código;</li>
+            </ul>
+         </li><br>
       </ul>
     <hr />
 <!--______________________________________________________________________________-->
@@ -141,6 +216,7 @@
         <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_computa%C3%A7%C3%A3o">História da Computação - Wikipedia</a></li>
         <li><a target="_blank" href="https://www.techopedia.com/definition/4358/client">A definição de cliente na computação</a></li>
         <li><a target="_blank" href="https://pt.wikipedia.org/wiki/Servidor_(computa%C3%A7%C3%A3o)">Wikipedia - Servidor (computação)</a></li>
+        <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/learn/getting_started_with_the_web/html_basics">HTML Basico - Mozilla</a></li>
     </ul>
 
 </body>
